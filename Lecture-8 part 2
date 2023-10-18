@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int mul(int a , int b){
+    return (a*b);
+}
+
+//function that returns nothing have ""VOID TYPE""
+void print(){
+    cout<<"this funtion returns nothing";
+}
+int main(){
+    print();
+    return 0;
+}
